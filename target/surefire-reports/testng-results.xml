@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="45484" started-at="2023-05-15T15:13:36Z" finished-at="2023-05-15T15:14:22Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@556d0826]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="45484" started-at="2023-05-15T15:13:36Z" finished-at="2023-05-15T15:14:22Z">
+      <class name="runner.RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.RunTest@556d0826]" name="setUpClass" is-config="true" duration-ms="1402" started-at="2023-05-15T15:13:36Z" finished-at="2023-05-15T15:13:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@556d0826]" name="runScenario" duration-ms="23398" started-at="2023-05-15T15:13:38Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-15T15:14:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login functionality with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunTest@556d0826]" name="runScenario" duration-ms="20518" started-at="2023-05-15T15:14:01Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-15T15:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search functionality for mumbai city"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Search functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunTest@556d0826]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2023-05-15T15:14:22Z" finished-at="2023-05-15T15:14:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
